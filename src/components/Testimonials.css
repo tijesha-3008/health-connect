@@ -1,0 +1,96 @@
+.testi {
+    padding-top: 80px;
+    background-color: rgb(30, 30, 59);
+    padding-bottom: 100px;
+}
+
+.step0 {
+    width: 75%;
+    margin: auto;
+}
+
+.step1 {
+    padding-top: 20px;
+}
+
+.step2 {
+    background-color: white;
+    height: 450px;
+    color: black;
+    border-radius: 0.75rem;
+}
+
+.step3 {
+    height: 14rem;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+    background-color: rgb(105, 105, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image123 {
+    height: 144px;
+    width: 164px;
+    border-radius: 9999px;
+}
+
+
+.step4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.p1 {
+    font: bold;
+    font-size: 1.25rem;
+}
+
+.p2 {
+    text-align: center;
+}
+
+.button5 {
+    outline: none;
+    border: none;
+    background-color: rgb(105, 105, 216);
+    color: #fff;
+    font-size: 1.125rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    border-radius: 0.75rem;
+    cursor: pointer;
+}
+
+.slick-slide>div {
+    margin: 0 10px;
+}
+
+.quoteleft {
+    margin-left: 5%;
+    color: #fff;
+    height: 80px;
+}
+
+.quoteright {
+    margin-left: 90%;
+    margin-bottom: 5%;
+    height: 80px;
+    color: #fff;
+}
+
+h4 {
+    color: #fff;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    text-decoration: underline;
+}

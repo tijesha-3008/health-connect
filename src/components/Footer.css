@@ -1,0 +1,251 @@
+
+.footer{
+    margin-top:20px;
+    margin-left: 50px;
+    padding-right:150px;
+    display:flex;
+    justify-content: space-between;
+}
+h3{
+    font-size: 32px;
+}
+.dark h3{
+    color:#fff;
+}
+.list{
+    font-size:18px;
+    font-style: italic;
+}
+.part1{
+    margin-top:20px;
+    width:300px;
+    display:flex;
+    justify-content: space-between;
+    font:bolder;
+}
+.part1:hover{
+  cursor: pointer;
+}
+.footer_mid_icons {
+    margin: 2%;
+}
+
+.footer_mid_icons:hover {
+    color: #006aff;
+}
+.dark .footer_mid_icons{
+    color: #fff;
+}
+.footer_mid_icons {
+    color: rgb(52, 52, 117);
+    cursor: pointer;
+}
+.icon_section {
+    margin-top:10px;
+    display: flex;
+    width:300px;
+    justify-content: space-between;
+}
+.mail{
+    margin-top: 20px;
+}
+.headupd{
+    font-size:20px ;
+    margin-top:10px;
+    text-align: center;
+}
+.dark .headupd{
+    color:#fff;
+}
+.contacts{
+    margin-top: 10px;
+}
+.dark .contacts{
+    color:#fff;
+}
+.connect1{
+    font-size: 20px;
+    text-align: center;
+}
+.connect2{
+    font-size: 20px;
+    margin-top:20px;
+    text-align:center
+}
+.icon_section1{
+    margin-top:5px;
+}
+.icon_section2{
+    margin-top: 5px;
+    text-align: center;
+}
+.footer2{
+    background-color: rgb(105, 105, 216);
+    text-align:center;
+}
+
+.copyright{
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+input{
+    color:black;
+    width: 200px;
+    height:40px;
+    font-size: 15px;
+    border-radius:15px;
+    border: 2px solid rgb(36, 36, 83);
+    padding: 10px;
+}
+
+/* .button2{
+    height:40px;
+    width:80px;
+    border-radius:15px;
+    font-size: 15px;
+    border:2px solid rgb(36, 36, 83);
+    cursor: pointer;
+} */
+.button2 {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width:80px;
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 500px;
+    overflow: hidden;
+    background: rgb(105, 105, 216);
+    color: ghostwhite;
+}
+
+.button2 span {
+    position: relative;
+    transition: color 0.4s;
+}
+
+.button2:hover span {
+    color: #fff;
+}
+
+.button2::before,
+.button2::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color:#fff;
+}
+
+.button2::before {
+    content: "";
+    background: #000;
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+.button2:hover::before {
+    transform: translate3d(100%, 0, 0);
+}
+
+.testi {
+    padding-top: 80px;
+    background-color: rgb(30, 30, 59);
+    padding-bottom: 100px;
+}
+
+.step0 {
+    width: 75%;
+    margin: auto;
+}
+
+.step1 {
+    padding-top: 20px;
+}
+
+.step2 {
+    background-color: white;
+    height: 450px;
+    color: black;
+    border-radius: 0.75rem;
+}
+
+.step3 {
+    height: 14rem;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+    background-color: rgb(105, 105, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image123 {
+    height: 144px;
+    width: 164px;
+    border-radius: 9999px;
+}
+
+
+.step4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.p1 {
+    font: bold;
+    font-size: 1.25rem;
+}
+
+.p2 {
+    text-align: center;
+}
+
+.button5 {
+    outline: none;
+    border: none;
+    background-color: rgb(105, 105, 216);
+    color: #fff;
+    font-size: 1.125rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    border-radius: 0.75rem;
+    cursor: pointer;
+}
+
+.slick-slide>div {
+    margin: 0 10px;
+}
+
+.quoteleft {
+    margin-left: 5%;
+    color: #fff;
+    height: 80px;
+}
+
+.quoteright {
+    margin-left: 90%;
+    margin-bottom: 5%;
+    height: 80px;
+    color: #fff;
+}
+
+h4 {
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    text-decoration: underline;
+}
